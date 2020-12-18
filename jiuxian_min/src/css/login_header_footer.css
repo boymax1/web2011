@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+/*
+*酒仙网
+*登录
+*注册
+*页面头部、尾部公共样式表
+**/
+body,
+a{
+    font-family: Arial, Helvetica, sans-serif,"宋体";
+    font-size: 12px;
+    color: #999;
+}
+.inner{
+    width: 1000px;
+    margin: 0 auto;
+}
+/*页面头*/
+.header{
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+    box-shadow: 1px 2px 6px #e1e1e1;
+}
+.header .inner{
+    height: 88px;
+}
+.header h1{
+    padding-top: 15px;
+    font-size: 0;
+}
+.header h1 a{
+    margin-right: 10px;
+}
+.header h1 img{
+    height: 63px;
+}
+.nav{
+    margin-top: 42px;
+    height: 28px;
+    line-height: 28px;
+}
+.nav li{
+    float: left;
+}
+.reg-a{
+    color: #0066cc;
+    font-size: 12px;
+}
+.reg-a:hover{
+    text-decoration: underline;
+}
+.welcome,
+.register{
+    margin: 0 10px;
+}
+.slide-menu{
+    border: 1px solid transparent;
+    background-color: #fff;
+    cursor: pointer;
+}
+.slide-menu dd{
+    display: none;
+}
+.slide-menu:hover{
+    border: 1px solid #ccc;
+}
+.slide-menu:hover dd{
+    display: block;
+}
+.slide-menu dt,
+.slide-menu dd{
+    height: 26px;
+    line-height: 26px;
+    width: 85px;
+    text-indent: 10px;
+}
+.slide-menu dt{
+    color: #666;
+    position: relative;
+}
+.slide-menu dt:after{
+    content: "";
+    position: absolute;
+    right: 7px;
+    top: 5px;
+    width: 15px;
+    height: 14px;
+    background: url("../images/regLogin-8.png") no-repeat -23px 0;
+}
+.slide-menu dd{
+    border-top: 1px dotted #ccc;
+}
+.slide-menu dd a{
+    color: #999;
+}
+.slide-menu dd a:hover{
+    text-decoration: underline;
+}
+/*页面尾部*/
+.footer{
+    height: 90px;
+    padding-top: 10px;
+}
+.footer p{
+    white-space: pre;
+    text-align: center;
+    line-height: 30px;
+    color: #333;
+}
+.footer p a:hover{
+    text-decoration: underline;
+    color: #f00;
+}
+.footer .color-red{
+    color: #f00;
+}

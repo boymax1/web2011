@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+html,body,div,section,article,nav,aside,header,footer,table,form,ul,ol,li,dl,dt,dd,tr,td,th,input,h1,h2,h3,h4,h5,h6,p,button,a{
+	padding: 0;
+	margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+a,u{
+	text-decoration: none;
+}
+b,strong{
+	font-weight: normal;
+}
+i,em{
+	font-style: normal;
+}
+ul,li{
+	list-style: none;
+}
+input,button,textarea,fieldset{
+	outline: none;
+	border: 0;
+	box-sizing: border-box;
+	background-color: transparent;
+}
+img{
+	border: none;
+	vertical-align: top;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	height: 0;
+	font-size: 0;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+}
+.clearfix{
+	zoom: 1;
+}

@@ -1,0 +1,641 @@
+@charset "utf-8";
+
+/*
+*酒仙网
+*列表页-公共样式
+**/
+body{
+    background-color: #fff;
+}
+.list-a-bg:hover{
+    background-color: #c00;
+    color: white;
+}
+.list-a-noColor:hover{
+    text-decoration: underline!important;
+}
+.list-header .inner-width1200{
+    margin-top: 10px;
+    border-top: 2px solid #c41921;
+}
+.list-path{
+    height: 39px;
+}
+.list-path-c{
+    float: left;
+    line-height: 33px;
+}
+.list-path .icon-menu{
+    float: left;
+    width: 11px;
+    height: 11px;
+    margin: 11px 13px 0 17px;
+    background: url("../images/srpIcons.png") no-repeat 0 0;
+}
+.list-path .right-arrow{
+    float: left;
+    margin: 9px 20px 0;
+    width: 8px;
+    height: 15px;
+    background: url("../images/srpIcons.png") no-repeat -17px 0;
+}
+.list-path form{
+    margin-top: 7px;
+    width: 120px;
+    height: 22px;
+    line-height: 22px;
+    border: 1px solid #dcdcdc;
+}
+.list-path form{
+    float: left;
+    position: relative;
+}
+.list-path form input{
+    width: 100px;
+    font-size: 12px;
+    color: #dcdcdc;
+}
+.list-path form button{
+    position: absolute;
+    right: 3px;
+    top: 4px;
+    width: 15px;
+    height: 15px;
+    background: url("../images/srpIcons.png") no-repeat -30px 0;
+    cursor: pointer;
+}
+.list-path p{
+    float: right;
+    margin-top: 11px;
+    color: #666;
+}
+.list-path p b{
+    color: #c00;
+}
+.list-sort{
+    border: 1px solid #eaeaea;
+}
+.two-columns{
+    border-top: 1px dotted #ccc;
+    background-color: #f6f6f6;
+}
+.two-columns dt{
+    float: left;
+    width: 100px;
+    padding: 14px 0 0 15px;
+}
+.two-columns dt h3{
+    color: #cf010e;
+    font-size: 12px;
+}
+.two-columns dt form{
+    font-size: 0;
+    margin-top: 18px;
+    width: 80px;
+    height: 19px;
+    border: 1px solid #d9d9d9;
+    background-color: #fff;
+}
+.two-columns dt form button{
+    float: left;
+    width: 19px;
+    height: 19px;
+    background: url("../images/srpIcons.png") no-repeat -28px 2px;
+}
+.two-columns dt form input{
+    float: left;
+    text-indent: 4px;
+    width: 60px;
+    height: 19px;
+    line-height: 19px;
+}
+.two-columns .columns-dd1{
+    margin-left: 115px;
+    padding: 10px 0 0 8px;
+    background-color: #fff;
+}
+.two-columns .w1025{
+    padding-right: 50px;
+    position: relative;
+}
+.two-columns .columns-dd1 ul li{
+    float: left;
+}
+.w1025 ul li{
+    width: 70px;
+    height: 18px;
+    margin: 0 10px 10px 0;
+}
+.two-columns .columns-dd1 ul li a{
+    padding: 0 5px;
+}
+.extend{
+    position: absolute;
+    top: 10px;
+    right: 6px;
+    width: 38px;
+    padding-left: 2px;
+    height: 20px;
+    border: 1px solid #ccc;
+    line-height: 20px;
+}
+.extend span{
+    display: inline-block;
+    width: 9px;
+    height: 5px;
+    vertical-align: middle;
+    margin-left: 2px;
+    background: url("../images/srpIcons.png") no-repeat -71px -53px;
+}
+.columns-add{
+    padding-bottom: 10px;
+}
+.columns-add li{
+    margin-right: 8px;
+}
+.two-columns .list-pr0{
+    padding-right: 0;
+}
+.more-select{
+    height: 49px;
+    background-color: #f5f5f5;
+    margin-bottom: 10px;
+}
+.more-f1{
+    width: 115px;
+}
+.more-f1 p{
+    margin: 14px 0 0 15px;
+    color: #c00;
+    font-size: 12px;
+}
+.more-f2{
+    margin-top: 10px;
+    border: 1px solid #e5e5e5;
+    border-right: 0;
+}
+.more-f2 dl{
+    float: left;
+    position: relative;
+    width: 94px;
+    height: 27px;
+    line-height: 27px;
+    border-right: 1px solid #e5e5e5;
+    background-color: #fff;
+}
+.more-f2 dl dt{
+    position: relative;
+    padding-right: 18px;
+    text-align: center;
+}
+.more-f2 dl dt i{
+    position: absolute;
+    width: 9px;
+    height: 5px;
+    top: 11px;
+    right: 12px;
+    background: url("../images/srpIcons.png") no-repeat -86px -53px;
+}
+.more-f2 dl dd{
+    position: absolute;
+}
+/*列表内容区*/
+.list-filter{
+    border: 1px solid #e0e0e0;
+}
+.list-filter ul li{
+    float: left;
+    width: 70px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    border-right: 1px solid #e0e0e0;
+}
+.list-filter ul li a{
+    display: block;
+    height: 36px;
+    font-size: 12px;
+    color: #666;
+}
+.list-filter .list-filter-def{
+    background-color: #c00;
+    color: white;
+}
+.list-filter ul li a:hover{
+    background-color: #c00;
+    color: white;
+}
+.list-filter ul li i{
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    width: 9px;
+    height: 10px;
+    margin-left: 6px;
+    background: url("../images/srpIcons.png") no-repeat -65px -108px;
+}
+.list-filter-other{
+    padding-right: 12px;
+}
+.list-filter-other form{
+    margin-top: 8px;
+    margin-left: 6px;
+}
+.list-filter-other form p{
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #aaa;
+}
+.list-filter-other input{
+    width: 55px;
+}
+.list-filter-other form i{
+    height: 1px;
+    width: 7px;
+    margin: 10px 3px 0;
+    background-color: #aaa;
+}
+.list-arrow-r{
+    width: 20px;
+    height: 20px;
+    background: url("../images/srpIcons.png") no-repeat -37px -143px;
+    margin-left: 14px;
+    margin-top: 8px;
+}
+.list-arrow-l{
+    width: 20px;
+    height: 20px;
+    background: url("../images/srpIcons.png") no-repeat -155px -143px;
+    margin-left: 12px;
+    margin-top: 8px;
+}
+.page-num{
+    margin-top: 8px;
+    height: 20px;
+    line-height: 20px;
+}
+.page-num b{
+    color: #c00;
+    margin-right: 4px;
+}
+.logistics{
+    height: 36px;
+    line-height: 36px;
+    background-color: #fffdf1;
+    border: 1px solid #e0e0e0;
+    border-top: 0;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.logistics b{
+    margin: 0 10px;
+}
+.logistics a{
+    position: relative;
+    display: inline-block;
+    height: 22px;
+    line-height: 26px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding-right: 26px;
+    vertical-align: middle;
+}
+.logistics a i{
+    margin: 0 5px;
+}
+.logistics a u{
+    position: absolute;
+    right: 6px;
+    top: 11px;
+    width: 9px;
+    height: 5px;
+    background: url("../images/srpIcons.png") no-repeat -86px -53px;
+}
+.logistics label{
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.logistics label input{
+    margin-right: 8px;
+    position: relative;
+    top: 2px;
+}
+.list-product li{
+    float: left;
+    height: 425px;
+    width: 240px;
+    margin-bottom: 10px;
+}
+.list-product li:hover{
+    box-shadow: 0 0 5px 2px #e0e0e0;
+}
+.list-product li:hover .collectText{
+    display: inline-block;
+}
+.collectBox{
+    position: relative;
+}
+.collectBox .product-img{
+    display: block;
+    width: 220px;
+    height: 220px;
+    padding: 5px 10px;
+}
+.collectBox .product-img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.collectText{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 56px;
+    height: 28px;
+    line-height: 28px;
+    background-color: #c00;
+    display: none;
+}
+.collectText a{
+    display: block;
+    height: 100%;
+    color: white;
+}
+.collectText i{
+    display: inline-block;
+    width: 11px;
+    height: 10px;
+    background: url("../images/srpIcons.png") no-repeat 0 -173px;
+    margin-right: 5px;
+    margin-left: 8px;
+}
+.list-pro-price{
+    height: 24px;
+    line-height: 24px;
+    color: #c00;
+    margin: 0 15px 5px;
+    font-size: 18px;
+}
+.list-pro-price i{
+    font-size: 14px;
+}
+.list-pro-desc{
+    height: 36px;
+    margin: 0 15px 6px;
+    font-size: 12px;
+    overflow: hidden;
+}
+.list-pro-desc a{
+    color: #333;
+    line-height: 1.5em;
+}
+.list-pro-desc .a-hover-line:hover span{
+    color: #c00;
+}
+.slogan{
+    color: #999;
+}
+.evaluation{
+    margin: 0 15px 5px;
+    line-height: 1.5em;
+}
+.evaluation span{
+    color: #005aa0;
+    margin-right: 4px;
+}
+.evaluation a:hover{
+    color: #c00;
+}
+.evaluation a:hover span{
+    color: #c00;
+}
+.list-store-name{
+    margin: 0 15px 10px;
+    height: 18px;
+    line-height: 18px;
+}
+.list-store-name i{
+    display: inline-block;
+    width: 13px;
+    height: 11px;
+    margin-right: 5px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+    background: url("../images/srpIcons.png") no-repeat -284px -286px;
+}
+.list-pro-tag{
+    height: 16px;
+    line-height: 16px;
+    margin: 0 15px;
+    font-size: 0;
+    overflow: hidden;
+}
+.list-pro-tag i{
+    display: inline-block;
+    width: 42px;
+    height: 16px;
+    vertical-align: middle;
+    background: url("../images/srpIcons.png") no-repeat 0 -484px;
+}
+.list-pro-tag span{
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    border: 1px solid #c00;
+    color: #c00;
+    padding: 0 4px;
+    font-size: 12px;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+.buyArea{
+    margin: 12px 15px 0;
+    height: 26px;
+}
+.buy-count{
+    border: 1px solid #e0e0e0;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    width: 80px;
+}
+.subtraction{
+    width: 22px;
+    height: 24px;
+    border-right: 1px solid #e0e0dc;
+}
+.buy-count input{
+    overflow: hidden;
+    width: 34px;
+    text-align: center;
+}
+.add{
+    width: 22px;
+    height: 24px;
+    border-left: 1px solid #e0e0dc;
+}
+.buyArea .shop-car{
+    width: 118px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border: 1px solid #e0e0dc;
+    color: #999;
+}
+.buyArea .shop-car:hover{
+    color: #c00;
+}
+.buyArea .shop-car i{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin-right: 12px;
+    position: relative;
+    top: -2px;
+    background: url("../images/srpIcons.png") no-repeat -258px -8px;
+}
+.pagination-page{
+    margin-bottom: 50px;
+    margin-top: 30px;
+    height: 28px;
+}
+/*分页器悬浮效果*/
+#currentPagination .page-active:hover{
+    background-color: #c00;
+    color: white!important;
+}
+/*分页器悬浮效果*/
+.total-count{
+    height: 28px;
+    line-height: 28px;
+    margin-left: 7px;
+    color: #333;
+}
+.total-count span{
+    margin: 0 3px;
+    font-weight: bold;
+}
+/*底部搜索框*/
+.list-search{
+    position: relative;
+    background-color: #f9f8f8;
+    height: 120px;
+}
+.list-search form{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -201px;
+    margin-top: -16px;
+    width: 400px;
+    border: 1px solid #d9d9d9;
+    background-color: #fff;
+}
+.list-search form input{
+    float: left;
+    width: 333px;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 5px;
+}
+.list-search form button{
+    height: 30px;
+    line-height: 30px;
+    float: right;
+    width: 66px;
+    text-align: center;
+    border-left: 1px solid #d9d9d9;
+    background-color: #efefef;
+    cursor: pointer;
+}
+/*加入购物车中间页*/
+.joinShop{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+}
+.joinShopCar{
+    position: fixed;
+    width: 326px;
+    height: 129px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #fff;
+    border: 7px solid #000;
+    border-radius: 3px;
+    z-index: 9999;
+}
+.joinShopCar dl dt{
+    float: left;
+    width: 70px;
+}
+.joinShopCar dl dt i{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 11px 0 0 21px;
+    background: url("../images/lsp_bt2n.png") no-repeat -1px -1px;
+}
+.joinShopCar dd{
+    position: relative;
+    margin-left: 70px;
+}
+.joinShopCar dd h4{
+    font-size: 16px;
+    font-weight: bold;
+    height: 42px;
+    line-height: 42px;
+    color: #000;
+}
+.joinShopCar dd p{
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 13px;
+}
+.joinShopCar dd p span{
+    color: #c33;
+}
+.joinShopCar .continue{
+    height: 26px;
+    line-height: 26px;
+}
+.continue .continue-left{
+    margin: 0 50px 0 1px;
+    color: #c33;
+    font-family: SimSun;
+}
+.continue .continue-left:hover{
+    text-decoration: underline;
+}
+.continue .continue-right{
+    display: inline-block;
+    height: 26px;
+    padding: 0 9px;
+    background-color: #c33;
+    border-radius: 3px;
+    color: white;
+    font-size: 14px;
+}
+.joinShopCar .del-join{
+    position: absolute;
+    width: 19px;
+    height: 18px;
+    top: 5px;
+    right: 5px;
+    background: url("../images/lsp_bt2n.png") no-repeat 0 -99px;
+}

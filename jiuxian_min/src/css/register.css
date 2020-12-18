@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+/*
+*酒仙网
+*注册样式表
+**/
+
+/*注册表单*/
+.article{
+    height: 600px;
+    background: url("../images/bg.jpg") repeat-x 0 0;
+    font-family: "Microsoft YaHei";
+    padding-bottom: 120px;
+}
+.select-nav{
+    height: 34px;
+    font-size: 14px;
+    margin-right: 18px;
+    padding-top: 36px;
+}
+.select-nav li{
+    float: right;
+    width: 114px;
+    height: 32px;
+    margin-left: 6px;
+    line-height: 32px;
+    color: white;
+    text-align: center;
+    background-color: #ff9900;
+    border-top: 2px solid #f90;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+}
+.select-nav .active{
+    background-color: #fff;
+    border: 2px solid #eaeaea;
+    border-bottom: 3px solid white;
+    color: #f90;
+}
+.select-opt{
+    box-sizing: border-box;
+    border: 3px solid #eaeaea;
+    box-shadow: 1px 6px 11px #e4e4e4;
+    border-radius: 5px;
+    background-color: #fff;
+    padding-top: 55px;
+    font-size: 16px;
+    color: #666;
+}
+.input-info{
+    padding-top: 15px;
+}
+.input-info dt{
+    float: left;
+    padding-right: 30px;
+    width: 355px;
+    height: 42px;
+    line-height: 42px;
+    text-align: right;
+}
+.input-info dd{
+    float: left;
+    border: 1px solid #eaeaea;
+}
+.opt-input{
+    position: relative;
+    padding-left: 46px;
+    width: 254px;
+}
+.opt-input i{
+    position: absolute;
+    width: 20px;
+    height: 21px;
+    top: 10px;
+    left: 14px;
+    background: url("../images/regLogin-8.png") no-repeat -51px 0;
+}
+.verification i{
+    background-position-x: -425px;
+}
+.auth dd{
+    border: 0;
+}
+.auth .opt-input{
+    width: 100px;
+    border: 1px solid #eaeaea;
+}
+.auth .opt-input input{
+    width: 100%;
+}
+.auth i{
+    background-position-x: -262px;
+}
+.auth button{
+    width: 148px;
+    height: 42px;
+    line-height: 42px;
+    color: #666666;
+    text-align: center;
+    background-color: #eaeaea;
+    border: 1px solid #cccccc;
+    margin-left: 6px;
+}
+.passwd i{
+    background-position-x: -81px;
+}
+.passwd .tip{
+    border: 0;
+    height: 42px;
+    line-height: 52px;
+    padding-left: 10px;
+    font-size: 12px;
+    color: #666;
+    display: none;
+}
+.passwd .tip b{
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 44px;
+    height: 22px;
+    background: url("../images/regLogin-8.png") no-repeat -222px -99px;
+}
+.opt-input input{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #999;
+}
+.opt-input span{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 13px;
+    right: 10px;
+    background: url("../images/regLogin-8.png") no-repeat -139px 0;
+    z-index: 999;
+    display: none;
+}
+.opt-input p{
+    position: absolute;
+    right: -1px;
+    bottom: -15px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 10px;
+    background-color: #ed787f;
+    color: white;
+    font-size: 12px;
+    display: none;
+}
+.opt-input img{
+    position: absolute;
+    right: 30px;
+    top: 0;
+}
+.protocol{
+    margin-left: 385px;
+    width: 302px;
+    font-size: 12px;
+    margin-bottom: 59px;
+}
+.protocol p{
+    height: 59px;
+    line-height: 59px;
+}
+.protocol p input{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.protocol button{
+    width: 302px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    color: white;
+    background-color: #e10303;
+    border-radius: 3px;
+    font-size: 18px;
+}

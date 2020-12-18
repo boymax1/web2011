@@ -1,0 +1,194 @@
+.userNav{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 35px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: -1px 0 3px 1px;
+}
+.userNav-well{
+    position: relative;
+    height: 100%;
+}
+.userNav-top{
+    position: absolute;
+    height: 100%;
+    top: 25%;
+    left: 0;
+}
+.userNav-top div{
+    position: relative;
+    padding: 10px 0 12px;
+    text-align: center;
+    color: #333;
+    width: 35px;
+    cursor: pointer;
+}
+.userNav-top div .myIcon{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    margin-bottom: 3px;
+    background: url("../images/public-24.png") no-repeat 0 -163px;
+}
+.userNav-top div dl{
+    position: absolute;
+    top: 0;
+    right: 35px;
+    width: 270px;
+    border: 1px solid #e5e5e5;
+    border-right: 0;
+    overflow: hidden;
+    z-index: 9999;
+    display: none;
+}
+.userNav-top div dl dt{
+    height: 114px;
+    line-height: 114px;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+}
+.userNav-top div dl dd{
+    padding: 0 15px;
+    height: 80px;
+    border-bottom: 1px dotted #ccc;
+    background-color: #f9f9f9;
+    position: relative;
+}
+.userNav-top div dl .myAccount-b{
+    height: 85px;
+}
+.userNav-top div dl dd li{
+    float: left;
+}
+.userNav-top li a{
+    display: block;
+    width: 120px;
+    height: 80px;
+    text-align: center;
+    overflow: hidden;
+}
+.userNav-top li a i{
+    display: inline-block;
+    width: 21px;
+    height: 24px;
+    margin: 16px 0;
+    vertical-align: middle;
+    background: url("../images/public-24.png") no-repeat -66px -190px;
+}
+.userNav-top div dl dt i{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+    margin-right: 11px;
+    background: url("../images/sbbgg.jpg") no-repeat center center;
+    background-size: contain;
+}
+.userNav-top .myCoupon{
+    width: 25px;
+    height: 25px;
+    margin: 16px 0 15px;
+    -ms-background-position-x: -97px;
+    background-position-x: -97px;
+}
+.userNav-top .myOrder{
+    width: 26px;
+    height: 18px;
+    margin: 23px 0 15px;
+    -ms-background-position-x: -158px;
+    background-position-x: -158px;
+}
+.userNav-top .vip{
+    width: 26px;
+    height: 26px;
+    margin: 16px 0 15px;
+    background-position: -158px -219px;
+}
+.userNav-top div dl dt a{
+    color: #c00;
+}
+.userNav-top .myCollect .myIcon{
+    -ms-background-position-x: -40px;
+    background-position-x: -40px;
+}
+.userNav-top .myCollect dt span b{
+    color: #c00;
+    font-weight: bold;
+}
+.userNav-top .myCar{
+    cursor: pointer;
+}
+.userNav-top .myCar p{
+    font-size: 14px;
+    color: #333;
+}
+.userNav-top .myCar .myIcon{
+    -ms-background-position-x: -80px;
+    background-position-x: -80px;
+}
+.userNav-top .myService .myIcon{
+    -ms-background-position-x: -120px;
+    background-position-x: -120px;
+}
+.userNav-bottom{
+    position: absolute;
+    bottom: 33px;
+    width: 35px;
+    z-index: 99;
+    background-color: #fff;
+}
+.userNav-bottom div{
+    width: 35px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    position: relative;
+}
+.userNav-bottom div i{
+    vertical-align: middle;
+    display: inline-block;
+    background: url("../images/public-24.png") no-repeat 0 -186px;
+}
+.userNav-bottom div p{
+    position: absolute;
+    top: 0;
+    right: 35px;
+    width: 88px;
+    text-align: center;
+    z-index: 9999;
+    border: 1px solid #e5e5e5;
+    border-right: 0;
+    background-color: #fff;
+    display: none;
+}
+.userNav-bottom .editor i{
+    width: 15px;
+    height: 16px;
+}
+.userNav-bottom .editor p{
+    height: 35px;
+    line-height: 35px;
+}
+.userNav-bottom .QR-code i{
+    width: 14px;
+    height: 14px;
+    -ms-background-position-x: -22px;
+    background-position-x: -22px;
+}
+.userNav-bottom .QR-code p{
+    height: 88px;
+    line-height: 88px;
+}
+.userNav-bottom .QR-code p img{
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+}
+.userNav-bottom .back-top i{
+    width: 13px;
+    height: 15px;
+    -ms-background-position-x: -43px;
+    background-position-x: -43px;
+}

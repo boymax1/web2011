@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>酒仙网-白酒、红酒、洋酒、保健酒、黄酒、酒具官方旗舰店</title>
+    <link rel="shortcut icon" href="../images/myLogo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/login_header_footer.css">
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+    <div class="header">
+    <div class="inner clearfix">
+        <h1 class="fl">
+            <a href="#"><img src="../images/left.jpg" alt=""></a>
+            <img src="../images/slogan.jpg" alt="">
+        </h1>
+        <ul class="fr nav">
+            <li class="welcome">欢迎来到酒仙网！</li>
+            <li class="register"><a href="/jiuxian_min/src/html/login.html" class="reg-a">请登录</a></li>
+            <li class="slide-menu">
+                <dl>
+                    <dt>帮助中心</dt>
+                    <dd><a href="#">配送说明</a></dd>
+                    <dd><a href="#">支付方式</a></dd>
+                    <dd><a href="#">售后服务</a></dd>
+                    <dd><a href="#">企业客户</a></dd>
+                </dl>
+            </li>
+        </ul>
+    </div>
+</div>
+    <div class="article">
+        <div class="inner">
+            <ul class="select-nav clearfix">
+                <li>企业用户注册</li>
+                <li class="active">个人用户注册</li>
+            </ul>
+            <form action="" class="select-opt">
+                <dl class="input-info clearfix">
+                    <dt>手机号</dt>
+                    <dd>
+                        <div class="opt-input">
+                            <i class="input-icon"></i>
+                            <input type="text" name="telephone">
+                            <span class="state-icon"></span>
+                            <p>请输入手机号</p>
+                        </div>
+                    </dd>
+                </dl>
+                <dl class="input-info verification clearfix">
+                    <dt>验证码</dt>
+                    <dd>
+                        <div class="opt-input">
+                            <i class="input-icon"></i>
+                            <input type="text" name="authCode">
+                            <span class="state-icon"></span>
+                            <img src="../php/myCaptcha.php" alt="" onclick="this.src='../php/myCaptcha.php?timestamp' + (new Date()).getTime();" width="80" height="40">
+                            <p>请输入验证码</p>
+                        </div>
+                    </dd>
+                </dl>
+                <dl class="input-info auth clearfix">
+                    <dt>校验码</dt>
+                    <dd class="clearfix">
+                        <div class="fl opt-input">
+                            <i class="input-icon"></i>
+                            <input type="text" name="noteCode">
+                            <span class="state-icon"></span>
+                            <p>请输入验证码</p>
+                        </div>
+                        <button type="button" class="fr">获取短信验证码</button>
+                    </dd>
+                </dl>
+                <dl class="input-info passwd clearfix">
+                    <dt>设置密码</dt>
+                    <dd>
+                        <div class="opt-input">
+                            <i class="input-icon"></i>
+                            <input type="password" name="passwd">
+                            <span class="state-icon"></span>
+                            <p>请输入密码</p>
+                        </div>
+                    </dd>
+                    <dd class="tip">
+                        <span>弱</span>
+                        <b></b>
+                        <span>强</span>
+                    </dd>
+                </dl>
+                <dl class="input-info passwd clearfix">
+                    <dt>确认密码</dt>
+                    <dd>
+                        <div class="opt-input">
+                            <i class="input-icon"></i>
+                            <input type="password" name="rePasswd">
+                            <span class="state-icon"></span>
+                            <p>请再次输入密码</p>
+                        </div>
+                    </dd>
+                </dl>
+                <div class="protocol">
+                    <p><label><input type="checkbox" checked>我已阅读并同意<a href="#" class="reg-a">《酒仙网用户注册协议》</a></label></p>
+                    <strong style="color: #c33;display: none">请接受服务协议！</strong>
+                    <button>立 即 注 册</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="inner footer">
+        <p>&copy;  酒仙网  2011 jiuxian.com All  Rights Reserved <a href="#"> 京ICP证110141号</a>  京公网安备1101050188221</p>
+        <p class="color-red">购买前请确认达到法定饮酒年龄！酒仙网不销售任何含酒精产品给18岁以下人士！</p>
+    </div>
+
+    <script src="../lib/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+    <script src="../js/register.js"></script>
+</body>
+</html>

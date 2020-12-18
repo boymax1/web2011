@@ -1,0 +1,557 @@
+@charset "utf-8";
+
+/*
+*酒仙网
+*首页-公共样式
+**/
+body,
+a{
+    font-size: 12px;
+    color: #999;
+}
+body{
+    background-color: #f9f9f9;
+    overflow-x: hidden;
+}
+.a-tip{
+    color: #c01;
+}
+.a-hover-line:hover{
+    color: #c01;
+    text-decoration: underline;
+}
+.a-hover-line-o:hover{
+    color: #ff7700;
+}
+.inner-width1000{
+    width: 1000px;
+    margin: 0 auto;
+}
+.inner-width1200{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #e5e5e5;
+}
+.header div{
+    height: 26px;
+}
+.userInfo a,
+.header-nav .a-hover-line,
+.header-nav .a-tip{
+    display: block;
+}
+.userInfo li{
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    margin-right: 7px;
+}
+.header-nav li{
+    position: relative;
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 4px 0 7px;
+}
+.header-nav .shop-car i{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    margin-right: 5px;
+    background: url("../images/public-24.png") no-repeat -18px 0;
+}
+.header-nav .shop-car span{
+    color: #c00;
+}
+.slide{
+    border: 1px solid transparent;
+    border-bottom-width: 2px;
+    position: relative;
+    top: -1px;
+}
+.slide p{
+    position: relative;
+    display: inline-block;
+    padding-right: 13px;
+}
+.slide-icon p a:before{
+    content: "";
+    position: relative;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    left: 0;
+    top: 1px;
+    margin-right: 5px;
+    background: url("../images/public-24.png") no-repeat -80px 0;
+}
+.slide p:after{
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 3px;
+    top: 12px;
+    right: 2px;
+    background: url("../images/public-24.png") no-repeat -100px 0;
+}
+.slide .slide-menu{
+    position: absolute;
+    height: auto;
+    left: -1px;
+    top: 27px;
+    padding: 5px 0;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-top: 0;
+    display: none;
+}
+.slide .slide-menu a{
+    display: block;
+}
+.slide:hover{
+    background-color: #fff;
+    border-color: #e5e5e5;
+    border-bottom-color: white;
+}
+.slide:hover .slide-menu{
+    display: block;
+    z-index: 9999;
+}
+.header-nav .app{
+    padding-left: 5px;
+    padding-right: 9px;
+}
+.app p{
+    padding: 0 3px;
+    height: 16px;
+    line-height: 16px;
+    background-color: #cc0001;
+}
+.app p:before{
+    content: "";
+    position: relative;
+    display: inline-block;
+    top: 1px;
+    width: 12px;
+    height: 12px;
+    margin-right: 3px;
+    background: url('../images/public-24.png') no-repeat -62px 0;
+}
+.app p a{
+    color: white;
+    font-size: 12px;
+}
+.app p a:hover{
+    text-decoration: underline;
+}
+.app:hover{
+    background: transparent;
+    border-color: transparent;
+}
+.app p:after{
+    padding: 0;
+    width: 0;
+    height: 0;
+}
+.app .slide-menu{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.my .slide-menu{
+    width: 100%;
+    text-align: center;
+}
+.slide-nav .slide-menu{
+    padding-bottom: 0;
+}
+.slide-nav dl{
+    width: 185px;
+    padding: 6px 0 8px 20px;
+    overflow: hidden;
+    border-bottom: 1px solid #ededed;
+}
+.slide-nav dl dt{
+    color: #000;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+}
+.slide-nav dl dd a{
+    float: left;
+    width: 48px;
+    height: 24px;
+    line-height: 24px;
+    margin-right: 10px;
+}
+.slide-nav dl dd b{
+    font-weight: bold;
+    color: #666;
+}
+.service p a:before{
+    background-position: -90.5px -264px;
+}
+.service .slide-menu{
+    width: 77px;
+    padding-left: 12px;
+}
+.line{
+    padding-right: 5px!important;
+}
+.line:after{
+    content: "";
+    position: absolute;
+    width: 0;
+    border-right: 1px solid #ccc;
+    height: 12px;
+    top: 7px;
+    right: 0;
+}
+.telephone b{
+    color: #c00;
+    font-weight: bold;
+}
+
+.banner a{
+    display: block;
+    height: 90px;
+    background: url("../images/index-top.jpg") no-repeat center center;
+}
+.search{
+    background-color: #fff;
+}
+.search .inner-width1200{
+    position: relative;
+    padding: 30px 0;
+}
+.search-left{
+    font-size: 0;
+}
+.logo img{
+    width: 137px;
+    height: 65px;
+    margin-right: 10px;
+}
+.pic-gif img{
+    width: 110px;
+    height: 65px;
+}
+.search-center{
+    padding: 2px 20px 0 20px;
+    overflow: hidden;
+}
+.search-center form{
+    position: relative;
+    border: 3px solid #c00;
+}
+.search-center form input{
+    box-sizing: border-box;
+    width: 100%;
+    padding-right: 85px;
+    text-indent: 5px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+}
+.search-center form button{
+    position: absolute;
+    width: 85px;
+    height: 32px;
+    right: 0;
+    top: 0;
+    background-color: #c00;
+    line-height: 32px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+#search_slide{
+    position: absolute;
+    left: 277px;
+    top: 69px;
+    width: 450px;
+    border: 1px solid #ccc;
+    border-top: 0;
+    background-color: #fff;
+    z-index: 9999;
+    display: none;
+}
+#search_slide li a{
+    padding: 0 10px;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+    border-bottom: 1px dotted #ccc;
+    overflow: hidden;
+}
+#search_slide li a b{
+    float: left;
+}
+#search_slide li a span{
+    float: right;
+    color: #999;
+}
+.search-center p{
+    height: 25px;
+    line-height: 25px;
+}
+.page-nav{
+    font-size: 14px;
+    line-height: 34px;
+    height: 34px;
+    background-color: #990000;
+}
+.secondary-menu{
+    position: relative;
+    width: 190px;
+    background-color: #ce171f;
+    color: #333;
+}
+.secondary-menu h3{
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+.secondary-menu a{
+    color: #333;
+}
+.secondary-menu .bg-orange-a{
+    display: inline-block;
+    padding: 0 4px;
+    background-color: #ff9900;
+    color: white;
+    border-radius: 3px;
+    height: 16px;
+    line-height: 16px;
+    margin: 0 2px;
+}
+.secondary-menu .color-orange-a{
+    color: #ff6600;
+}
+.secondary-menu .color-orange-a:hover{
+    color: #ff6600;
+}
+.secondary-menu-slide{
+    position: absolute;
+    top: 34px;
+    width: 190px;
+    height: 470px;
+    background-color: #fff;
+    z-index: 9999;
+}
+.secondary-menu-slide .mon-well{
+    position: relative;
+}
+.mon-well .secondary-menu-left{
+    height: 470px;
+}
+.secondary-menu-left .menu-selector{
+    text-align: left;
+    height: 78px;
+    padding: 3px 14px 0 10px;
+    border-left: 3px solid transparent;
+    border-bottom: 1px solid #e4e4e4;
+    overflow: hidden;
+}
+.secondary-menu-left .menu-selector h4{
+    position: relative;
+    padding-left: 24px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    color: #333;
+}
+.menu-selector h4 i{
+    position: absolute;
+    left: 0;
+    top: 8px;
+    display: inline-block;
+    width: 12px;
+    height: 11px;
+    margin-right: 12px;
+    vertical-align: middle;
+    background: url("../images/public-24.png") no-repeat 0 -102px;
+}
+.secondary-menu-left .menu-selector-active{
+    border-left-color: #ce171f;
+    background-color: #f1f1f1;
+}
+.menu-selector li{
+    font-size: 0;
+    height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    line-height: 20px;
+}
+.menu-selector li a{
+    font-size: 12px;
+    margin: 0 5px;
+}
+.one-key h4 i{
+    top: 11px;
+    background-position: -73px -265px;
+}
+.white-wine h4 i{
+    top: 9px;
+    width: 9px;
+    height: 16px;
+    background-position-x: 0;
+}
+.port-wine h4 i{
+    top: 6px;
+    height: 19px;
+    width: 8px;
+    background-position-x: -19px;
+}
+.foreign-wine h4 i{
+    width: 14px;
+    height: 15px;
+    background-position-x: -37px;
+}
+.beer h4 i{
+    top: 9px;
+    width: 9px;
+    height: 15px;
+    background-position-x: -61px;
+}
+.utensil h4 i{
+    top: 9px;
+    width: 12px;
+    height: 15px;
+    background-position-x: -80px;
+}
+
+.secondary-menu-left .utensil{
+    height: 57px;
+    border-bottom: 0;
+}
+.mon-well .secondary-menu-right{
+    position: absolute;
+    left: 190px;
+    top: 0;
+}
+.text-selector{
+    width: 615px;
+    height: 465px;
+    padding-top: 5px;
+    background: url("../images/bg_line_03.png") repeat-y 0 0;
+}
+.text-selector dl{
+    overflow: hidden;
+}
+.text-selector dl dt{
+    float: left;
+    width: 80px;
+    height: 42px;
+    line-height: 42px;
+    text-align: right;
+    font-size: 12px;
+}
+.text-selector dl dd{
+    padding: 10px 0 10px 0;
+    margin-left: 105px;
+    margin-right: 15px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 0;
+}
+.text-selector dl dd.no-bottom-border{
+    border-bottom: 0;
+}
+.text-selector dl dd p{
+    height: 22px;
+    line-height: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+.text-selector dl dd p a{
+    padding: 0 8px 0 7px;
+    background: url("../images/menuLine.jpg") no-repeat right center;
+    color: #999;
+}
+.text-selector dl dd a:hover{
+    color: #c00;
+}
+.text-selector dl dd .menuLine{
+    background: none;
+}
+.white-wine-text{
+    background-image: url("../images/bg_line_04_03.png")
+}
+.white-wine-text dl dt{
+    width: 50px;
+}
+.white-wine-text dl dd{
+    margin-left: 75px;
+}
+.white-wine-text .filter-title p a{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background-image: none;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    text-align: center;
+    line-height: 18px;
+}
+.white-wine-text .filter-title .special{
+    background-color: #c00;
+    color: #fff;
+}
+.white-wine-text .filter-title .special:before{
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 5px;
+    left: 50%;
+    margin-left: -5.5px;
+    bottom: -4px;
+    background: url("../images/public-24.png") no-repeat -114px 0;
+}
+.white-wine-text .filter-title p .all{
+    width: auto;
+    padding: 0 4px;
+}
+.white-wine-text .filter-text a{
+    float: left;
+    height: 22px;
+    width: 80px;
+    line-height: 22px;
+    text-align: left;
+    margin: 0;
+    padding: 0 0 0 7px;
+}
+.white-wine-text .filter-text{
+    margin-top: 10px;
+}
+.port-wine-text{
+    width: 400px;
+}
+.pic2-gif img{
+    width: 120px;
+    height: 34px;
+}
+.page-nav-content{
+    overflow: hidden;
+}
+.page-nav-content a{
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    color: white;
+    padding: 0 22px;
+    background: url("../images/navLine.png") no-repeat left center;
+}
+.page-nav-content .active{
+    background: #b40c10;
+}
+.page-nav-content a:hover{
+    background: #b40c10;
+}

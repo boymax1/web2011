@@ -1,0 +1,181 @@
+/*尾部*/
+.company-info{
+    background-color: #333333;
+    padding-bottom: 68px;
+}
+.company-top{
+    border-bottom: 1px solid #494949;
+}
+.company-top-left{
+    height: 84px;
+    line-height: 84px;
+    color: white;
+    font-size: 14px;
+}
+.company-top-left i{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../images/public-24.png") no-repeat -144px -22px;
+    vertical-align: middle;
+    margin-right: 18px;
+}
+.company-top-left b{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 24px;
+    margin-right: 25px;
+    color: #c00;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.company-top-left span{
+    white-space: pre;
+    vertical-align: middle;
+}
+.company-top-right p{
+    float: left;
+    margin-top: 26px;
+    height: 32px;
+    line-height: 32px;
+    color: white;
+    margin-right: 10px;
+}
+.company-top-right form{
+    float: left;
+    margin-top: 26px;
+    height: 30px;
+    width: 226px;
+    padding: 0 0 0 7px;
+    line-height: 30px;
+    border: 1px solid #494949;
+    color: white;
+    position: relative;
+}
+.company-top-right form input{
+    color: white;
+}
+.company-top-right form button{
+    position: absolute;
+    right: 7px;
+    top: 6px;
+    width: 21px;
+    height: 17px;
+    background: url("../images/public-24.png") no-repeat -133px 0;
+    cursor: pointer;
+}
+.company-bottom{
+    padding-top: 35px;
+}
+.company-bottom dl{
+    float: left;
+    padding-left: 35px;
+    width: 138px;
+}
+.company-bottom dl dt{
+    position: relative;
+    height: 26px;
+    line-height: 26px;
+    padding:  5px 0;
+    color: white;
+    font-size: 14px;
+}
+.company-bottom dl dt span{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 5px;
+    left: -35px;
+    background: url("../images/public-24.png") no-repeat 0 -131px;
+}
+.company-bottom dl dd{
+    height: 26px;
+    line-height: 26px;
+}
+.company-bottom dl dd a{
+    color: #ccc;
+}
+.company-bottom dl dd a:hover{
+    text-decoration: underline;
+}
+.other-temp,.other-temp a{
+    color: white;
+}
+.other-temp{
+    height: 28px;
+    line-height: 28px;
+    position: relative;
+    margin-bottom: 19px;
+}
+.other-temp span{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background: url("../images/public-24.png") no-repeat -140px -74px;
+    margin-right: 9px;
+    vertical-align: middle;
+}
+.other-temp b{
+    cursor: pointer;
+}
+.other-temp img{
+    position: absolute;
+    left: 37px;
+    top: 31px;
+}
+.footer i{
+    margin: 0 7px 0 11px;
+}
+.footer{
+    padding-bottom: 50px;
+}
+.footer-left1,.footer-left2{
+    float: left;
+}
+.footer-left1{
+    width: 800px;
+}
+.footer-left1 p{
+    height: 20px;
+    line-height: 20px;
+}
+.footer-information1,.footer-information2{
+    padding-top: 26px;
+}
+.footer-information1,.footer-information1 a{
+    color: #333;
+}
+.pre{
+    white-space: pre;
+}
+.footer-img{
+    margin: 7px 0 9px;
+    font-size: 0;
+}
+.mr{
+    margin-right: 6px;
+}
+.footer-left1 strong{
+    color: #c00;
+}
+.footer-left2{
+    margin-top: 42px;
+}
+.footer-left2 dl{
+    float: left;
+    width: 80px;
+    text-align: center;
+}
+.footer-left2 dt img{
+    width: 80px;
+    height: 80px;
+}
+.footer-left2 dd{
+    height: 34px;
+    line-height: 34px;
+    color: #666;
+}
+.mr43{
+    margin-right: 43px;
+}

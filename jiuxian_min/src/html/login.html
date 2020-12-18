@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>酒仙网-白酒、红酒、洋酒、保健酒、黄酒、酒具官方旗舰店</title>
+    <link rel="shortcut icon" href="../images/myLogo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/login_header_footer.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div class="header">
+        <div class="inner clearfix">
+            <h1 class="fl">
+                <a href="/jiuxian_min/src/"><img src="../images/left.jpg" alt=""></a>
+                <img src="../images/slogan.jpg" alt="">
+            </h1>
+            <ul class="fr nav">
+                <li class="welcome">欢迎来到酒仙网！</li>
+                <li class="register"><a href="./register.html" class="reg-a">免费注册</a></li>
+                <li class="slide-menu">
+                    <dl>
+                        <dt>帮助中心</dt>
+                        <dd><a href="#">配送说明</a></dd>
+                        <dd><a href="#">支付方式</a></dd>
+                        <dd><a href="#">售后服务</a></dd>
+                        <dd><a href="#">企业客户</a></dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="article">
+        <div class="inner clearfix">
+            <a href="#" class="well"></a>
+            <form action="" class="modal" method="post">
+                <div class="change"></div>
+                <ul class="select-nav clearfix">
+                    <li class="select-nav-list"><a href="#" class="active">帐号登录</a></li>
+                    <li class="line"></li>
+                    <li class="select-nav-list"><a href="#">手机动态密码登录</a></li>
+                </ul>
+                <dl class="input-common clearfix user1">
+                    <dt class="fl"><span></span></dt>
+                    <dd>
+                        <input type="text" placeholder="用户名/手机号" id="username" name="username">
+                        <span class="del"></span>
+                        <i></i>
+                        <p>请输入用户名/手机号</p>
+                    </dd>
+                </dl>
+                <dl class="input-common clearfix telephone user2">
+                    <dt class="fl"><span></span></dt>
+                    <dd>
+                        <input type="text" placeholder="手机号" id="telephone" name="telephone">
+                        <span class="del"></span>
+                        <i></i>
+                        <p>请输入手机号</p>
+                    </dd>
+                </dl>
+                <dl class="input-common clearfix user1">
+                    <dt class="fl lock"><span></span></dt>
+                    <dd>
+                        <input type="password" placeholder="密码" name="passwd">
+                        <span class="del"></span>
+                        <i></i>
+                        <p>请输入密码</p>
+                    </dd>
+                </dl>
+                <dl class="input-common clearfix" id="codeT">
+                    <dt class="fl safety"><span></span></dt>
+                    <dd>
+                        <input type="text" placeholder="验证码" size="8" maxlength="5" name="captcha">
+                        <img src="../php/myCaptcha.php" alt="" onclick="this.src='../php/myCaptcha.php?timestamp' + (new Date()).getTime();" width="80" height="40">
+                        <p>请输入验证码</p>
+                    </dd>
+                </dl>
+                <dl class="input-common clearfix note-message user2">
+                    <dt class="fl lock"><span></span></dt>
+                    <dd>
+                        <input type="text" name="notePasswd">
+                        <button type="button" class="fr">获取短信验证码</button>
+                    </dd>
+                </dl>
+                <div class="btn">
+                    <button>登录</button>
+                    <div class="btn-info clearfix">
+                        <label class="fl"><input type="checkbox">自动登录</label>
+                        <p class="fr">
+                            <a href="#">忘记密码</a>
+                            <a href="./register.html" class="reg-a">免费注册</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="cooperation">
+                    <span>使用合作账号登录</span>
+                    <a href="#"></a>
+                    <a href="#" class="cooperate2"></a>
+                    <a href="#" class="cooperate3"></a>
+                    <a href="#" class="cooperate4"></a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="inner footer">
+        <p>&copy;  酒仙网  2011 jiuxian.com All  Rights Reserved <a href="#"> 京ICP证110141号</a>  京公网安备1101050188221</p>
+        <p class="color-red">购买前请确认达到法定饮酒年龄！酒仙网不销售任何含酒精产品给18岁以下人士！</p>
+    </div>
+    <script src="../lib/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html>

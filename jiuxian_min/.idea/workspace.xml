@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="844386c2-6553-471d-9d42-24c3b9e69ce8" name="默认的" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lXQskMbaccVmVJsz7w2qrftS90" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\jiuxian_min\src\js" />
+      <recent name="E:\xampp\htdocs\jiuxian_min\src\css" />
+      <recent name="E:\xampp\htdocs\jiuxian_min\src\html" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="844386c2-6553-471d-9d42-24c3b9e69ce8" name="默认的" comment="" />
+      <created>1607741164701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607741164701</updated>
+      <workItem from="1607741165860" duration="2884000" />
+      <workItem from="1607744089754" duration="18837000" />
+      <workItem from="1607782719699" duration="24612000" />
+      <workItem from="1607906679948" duration="9162000" />
+      <workItem from="1607957122677" duration="5631000" />
+      <workItem from="1607992349237" duration="28717000" />
+      <workItem from="1608043911757" duration="11833000" />
+      <workItem from="1608079453390" duration="22153000" />
+      <workItem from="1608108115625" duration="32482000" />
+      <workItem from="1608165541317" duration="16583000" />
+      <workItem from="1608184457489" duration="26806000" />
+      <workItem from="1608214989827" duration="17496000" />
+      <workItem from="1608252324804" duration="134000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/*切换箭头样式*/
+.extend-arrow{
+    position: absolute;
+    top: 0;
+    height: 47px;
+    padding-top: 17px;
+    background-color: #fff;
+}
+.extend-arrow i{
+    display: inline-block;
+    height: 30px;
+    width: 14px;
+}
+.extend-arrow-l,.extend-arrow-lbg{
+    left: 0;
+    padding-left: 16px;
+}
+.extend-arrow-l i{
+    background: url('../images/d-icon.png') no-repeat -177px -20px;
+}
+.extend-arrow-lbg i{
+    background: url('../images/d-icon.png') no-repeat -177px -90px;
+}
+.extend-arrow-r,.extend-arrow-rbg{
+    right: 0;
+    padding-right: 16px;
+}
+.extend-arrow-r i{
+    background: url('../images/d-icon.png') no-repeat -194px -20px;
+}
+.extend-arrow-rbg i{
+    background: url('../images/d-icon.png') no-repeat -194px -90px;
+}
