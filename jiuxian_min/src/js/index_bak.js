@@ -269,7 +269,10 @@ $(function () {
             scrollTop: floorLevel.eq(myIndex).offset().top-290
         },500,function () {
             navState = true;
-            checkNav("b");
+            //数据加载会导致滚动时，页面滚动到位后，屏幕再次轻微滚动。会导致变更失效，稍微加一点延迟可以解决。
+            setTimeout(function () {
+                checkNav("b");
+            },20);
         });
     });
 

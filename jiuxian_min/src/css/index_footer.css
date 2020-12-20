@@ -116,6 +116,10 @@
     margin-right: 9px;
     vertical-align: middle;
 }
+.wechat span{
+    -ms-background-position-x: -102px;
+    background-position-x: -102px;
+}
 .other-temp b{
     cursor: pointer;
 }
